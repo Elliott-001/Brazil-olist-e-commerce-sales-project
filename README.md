@@ -20,16 +20,16 @@ Data cleaning & transformation
 
 Aggregations (GROUP BY, window functions)
 
-Regression analysis to uncover relationships between variables
+Regression analysis to uncover relationships between variables (in mysql and tableau)
 
 
-4) Key Insights
+4) Key Insights Derived
 
--Revenue is currently down from the december 2020 peak, with a MoM% change of -14% in february 2021.
+-There was an overall rise in revenue trend until september 2018, which saw a significant drop (99.6%) in revenue from the previous month. However on a YoY basis, revenue was up 20%.
 
--On a location basis, the US drives the bulk of the revenue generated accounting for just over 71% of total accumulated revenue through     the entire duration.
+-Averege delivery duration was highest in the northern parts of the country compared to other areas. It was also marinally strongly negatively correlated with number of sellers per state as seen on the scatter plot.
 
--The nintendo switch accounts for 47.6% of product sales, making it the product with the most quantity of units sold. However it lags       behind the 24inch 4k gaming monitor(product with the most revenue at $1.9M) in terms of revenue generated.
+-Most of the products had a review score between 4 and 5 indicating strong customer satisfaction.
 
 Live dashboard: 
-https://public.tableau.com/app/profile/osabuohien.eguavoen/viz/gamezonedataviz/gamezoneanalysis
+https://public.tableau.com/app/profile/osabuohien.eguavoen/viz/brazilolistsalesviz/OlistE-CommerceSalesAnalysis
