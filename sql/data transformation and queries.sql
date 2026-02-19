@@ -7,12 +7,6 @@ join product_category_translation on products.product_category_name =  product_c
 set products.product_category = product_category_translation.product_category_name_english
 where products.product_category_name = product_category_translation.product_category_name; 
 
-/* hypothesis testing to test if payment_installments is significantly affected by payment value using linear regression.
-The results of this view are entered into excel where a regression analysis was run */
-create view payment_regression as
-select payment_installments, payment_value
-from order_payments; -- correlation = 0.33
-
 -- Datetime transformations
 create view durations as 
 with cte as 
