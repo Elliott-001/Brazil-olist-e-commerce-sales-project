@@ -31,5 +31,13 @@ Regression analysis to uncover relationships between variables (in mysql and tab
 
 -Most of the products had a review score between 4 and 5 indicating strong customer satisfaction.
 
+## Relationship Diagram
+
+This shows how the various tables in the database relate to each other
+
+
+![Tableau Dashboard](images/Olist data schema.png)
+
+
 Live dashboard: 
 https://public.tableau.com/app/profile/osabuohien.eguavoen/viz/brazilolistsalesviz/OlistE-CommerceSalesAnalysis
