@@ -36,7 +36,7 @@ Regression analysis to uncover relationships between variables (in mysql and tab
 This shows how the various tables in the database relate to each other
 
 
-![Tableau Dashboard](images/Olist data schema.png)
+
 
 
 Live dashboard: 
